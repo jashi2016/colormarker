@@ -1,0 +1,58 @@
+.outer-container{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    
+}
+.markers{
+    display: flex;
+    width: 25%;
+    padding: 1%;
+    height: 40px;
+    
+
+}
+.markers div{
+    padding: 1%;
+    color: transparent;
+    box-shadow: 0px 0px 30px black;
+}
+.m1{
+    width: 25%;
+    background-image: linear-gradient(rgba(255, 0, 0,1),rgba(255, 0, 0,0.5),rgba(255, 0, 0,1));
+}
+.m2{
+    width: 62.5%;
+    background-image: linear-gradient(rgba(255, 0, 0,0.6),rgba(255, 0, 0,0.2),rgba(255, 0, 0,0.6));
+    
+    border-left: 10px double rgba(0, 0, 0,1) ;
+}
+.m3{
+    
+    background-image: linear-gradient(rgba(255, 0, 0,1),rgba(255, 0, 0,0.5),rgba(255, 0, 0,1));
+}
+.m4{
+    width: 25%;
+    background-image: linear-gradient(rgb(60, 206, 2,1),rgb(72, 255, 0,0.5),rgb(72, 255, 0,1));
+}
+.m5{
+    width: 62.5%;
+    background-image: linear-gradient(rgb(60, 206, 2,0.6),rgb(72, 255, 0,0.2),rgb(72, 255, 0,0.6)); 
+    border-left: 10px double rgba(0, 0, 0,1) ;
+}
+.m6{
+    background-image: linear-gradient(rgb(60, 206, 2,1),rgb(72, 255, 0,0.5),rgb(72, 255, 0,1));
+}
+.m7{
+    width: 25%;
+    background-image: linear-gradient(rgba(31, 4, 150,1),rgba(31, 4, 150,0.5),rgba(31, 4, 150,1));
+}
+.m8{
+    width: 62.5%;
+    background-image: linear-gradient(rgba(31, 4, 150,0.6),rgba(31, 4, 150,0.2),rgba(31, 4, 150,0.6));
+    
+    border-left: 10px double rgba(0, 0, 0,1) ;
+}
+.m9{
+    background-image: linear-gradient(rgba(31, 4, 150,1),rgba(31, 4, 150,0.5),rgba(31, 4, 150,1));
+}
